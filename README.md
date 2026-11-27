@@ -26,16 +26,14 @@ The emitter characteristic is plotted between emitter voltage VE and emitter cur
  
 Reference model graph from the supplied record.
 7. PROCEDURE
-1. Set up the circuit as shown in the circuit diagram.
-2. Give the power supply.
-3. By varying the input power supply, take the values of voltage (VE) and current (IE).
-4. Plot the graph between VE and IE.
-5. Find the intrinsic stand-off ratio from the graph.
-8. FORMULA
-VBB = 12 V
-VP = VD + ηVBB
-Therefore, η = (VP − VD) / VBB
-Find the value of VP from the graph and calculate η. Similarly, determine the intrinsic stand-off ratio for all values of VBB.
+1.Download two files and save in same folder
+2.Open LT Spice 
+3.Go to file--->open UJT_oscillator.cir file
+4.Run it 
+5.Output window will open.In output window go to plot settings---->Add trace--->choose v(e) ,click ok.This is input wave form  
+6.Now close output window,again run the file,in output window go to plot settings--->Add trace--->choose v(b1) ,this is output waveform.Take snap of both input and output wave form
+
+
 9. OBSERVATION
 
 Simulation Results:
