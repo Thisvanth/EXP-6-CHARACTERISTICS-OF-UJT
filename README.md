@@ -13,7 +13,10 @@ S. No.	Components	Specification	Qty.
 UJT is the Uni Junction Transistor. It is a three-terminal device. The three terminals are emitter, base 1 and base 2. The equivalent circuit consists of two resistors, one variable resistor and one fixed resistor. The ratio of internal resistance is referred to as intrinsic stand-off ratio (η). It is defined as the ratio of the variable resistance to the total resistance.
 Due to the existing PN junction, there will be a voltage drop. If voltage is applied to the emitter, the device will not turn on until the input voltage is less than the drop across the diode plus the drop at the variable resistance R1.
 When the device is turned on, holes move from emitter to base resulting in a current flow. Due to the sudden increase in charge concentration in the base region, conductivity increases. This causes a drop at base 1. If we further increase the emitter voltage, the device undergoes saturation. Hence UJT has three operating regions: (i) cut-off region, (ii) negative resistance region and (iii) saturation region.
-4. CIRCUIT DIAGRAM
+4. SPICE SIMULATION CODE:
+
+<img width="1920" height="1080" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/61bfa9f7-4972-4da3-b488-c0fc9bf4bfb6" />
+
  
 Reference circuit diagram reproduced from the supplied record.
 5. UJT EQUIVALENT CIRCUIT
@@ -37,6 +40,10 @@ Find the value of VP from the graph and calculate η. Similarly, determine the i
 
 Simulation Results:
 
+<img width="1920" height="1080" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/dd4907e3-4f1c-4ee8-af4a-d483f69489cb" />
+
+
+<img width="1920" height="1080" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/61a03879-37f2-467e-90f5-81b141158e47" />
 
 
 
@@ -44,31 +51,6 @@ For VBB = 5 V and VBB = 8 V
 VBB = 5 V		VBB = 8 V	
 VE (V)	IE (mA)	VE (V)	IE (mA)
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-10. CALCULATION
-
-
-
-For VBB = 5 V:
-Peak voltage, VP = 3.3 V
-Diode voltage, VD = 3.3 − 2.8 = 0.5 V
-η = (VP − VD) / VBB
-η = (3.3 − 0.5) / 5 = 2.8 / 5 = 0.56
-Therefore, η = 0.56
 11. RESULT
 The characteristics of UJT were plotted and the intrinsic stand-off ratio was found.
 Intrinsic stand-off ratio, η = 0.56
